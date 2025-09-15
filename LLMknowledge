@@ -1,0 +1,28 @@
+📌 1. AI / LLM Fundamentals
+Core ML/AI concepts: Transformers (attention, embeddings, positional encoding).
+                     Fine-tuning methods (LoRA, PEFT, instruction-tuning).
+                     Embeddings (vector similarity, cosine similarity, ANN indexes).
+                     RAG (Retrieval-Augmented Generation) patterns and alternatives.
+                     Evaluation (perplexity, BLEU, ROUGE, accuracy vs. business KPIs).
+LLM limitations:  Hallucinations, bias, prompt injection, model drift.
+                  Trade-offs between closed-source (GPT, Claude, Gemini) and open-source (LLaMA, Mistral, Falcon).
+
+📌 2. Practical LLM Engineering Skills: LangChain / LlamaIndex (or Java equivalents)
+                                          - Pipelines for RAG, agents, tools.
+                                          - Retrieval, memory, orchestration.
+                                         Vector databases
+                                          - Pinecone, Weaviate, Milvus, FAISS, pgvector (Postgres extension).
+                                          - Indexing strategies, query efficiency, hybrid search (BM25 + embeddings).
+                                         Model serving / APIs
+                                          - Hugging Face Transformers + Inference Endpoints.
+                                          - OpenAI/Anthropic APIs.
+                                          - On-prem model hosting (vLLM, TGI, Ray Serve, Ollama).
+                                          - Java interop with Python-based LLM stacks (gRPC, REST, JNI).
+                                         Prompt engineering
+                                          - Zero-shot, few-shot, chain-of-thought prompting.
+                                          - Guardrails and safety filters.
+                                          - Instruction following vs. system prompts.
+                                         Fine-tuning / customization
+                                          - LoRA and adapters.
+                                          - Domain adaptation for finance-specific tasks (e.g., SEC filings, market reports).
+                                          - Synthetic data generation.
